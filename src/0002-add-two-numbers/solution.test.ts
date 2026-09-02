@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import { addTwoNumbers } from "./solution.js";
-import { arrayToList, listToArray } from "./test-utils.js";
+import { arrayToList, listToArray } from "./../shared/linked-list/utils.js";
 
 test.each([
   {

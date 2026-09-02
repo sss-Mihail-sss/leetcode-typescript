@@ -7,9 +7,9 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 **Example 1:**
 
-![Description of the image](./img.png)
+![Description of the image](assets/list-node.png)
 
-> **Input**:: l1 = [2,4,3], l2 = [5,6,4] <br/>
+> **Input**: l1 = [2,4,3], l2 = [5,6,4] <br/>
 > **Output**: [7,0,8] <br/>
 > **Explanation**: 342 + 465 = 807.
 
@@ -28,4 +28,3 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 - The number of nodes in each linked list is in the range `[1, 100]`.
 - `0 <= Node.val <= 9`
 - It is guaranteed that the list represents a number that does not have leading zeros.
- 

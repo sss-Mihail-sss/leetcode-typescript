@@ -1,6 +1,5 @@
-import { ListNode } from './list-node.js';
+import { ListNode } from "./list-node.js";
 
-// подумай, как здесь построить linked list
 export function arrayToList(values: number[]): ListNode | null {
   if (values.length === 0) {
     return null;
@@ -17,7 +16,6 @@ export function arrayToList(values: number[]): ListNode | null {
   return list;
 }
 
-// пройти по linked list и собрать значения
 export function listToArray(head: ListNode | null): number[] {
   const array: number[] = [];
   let current = head;

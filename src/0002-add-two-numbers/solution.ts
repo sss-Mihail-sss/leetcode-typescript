@@ -1,4 +1,4 @@
-import { ListNode } from "./list-node.js";
+import { ListNode } from "./../shared/linked-list/list-node.js";
 
 export function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   const dummy = new ListNode();
