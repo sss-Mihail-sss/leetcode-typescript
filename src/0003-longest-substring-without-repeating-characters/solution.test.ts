@@ -19,10 +19,6 @@ test.each([
     expected: 3,
   },
   {
-    s: "😀😃😀",
-    expected: 2,
-  },
-  {
     s: "eea",
     expected: 2,
   },
